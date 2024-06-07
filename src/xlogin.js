@@ -19,10 +19,10 @@ const XLogin = () => {
 
   return (
     <div>
-      <h1>Login Page</h1>
+      <h1>XLogin</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="username">Username:</label>
+          <label htmlFor="username" label="Username">Username:</label>
           <input
             type="text"
             id="username"
@@ -32,7 +32,7 @@ const XLogin = () => {
           />
         </div>
         <div>
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="password" label="Password">Password:</label>
           <input
             type="password"
             id="password"
